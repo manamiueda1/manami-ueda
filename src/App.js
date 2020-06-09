@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import "./portfolio_img.jpg";
 
 function App() {
   // return (
@@ -28,7 +29,12 @@ function App() {
         <h1 className="Name">
           MANAMI <br></br> UEDA
         </h1>
-        <img src="portfolio_img.jpg" alt="portfolio_shot"></img>
+        <img
+          src="portfolio_img.jpg"
+          alt="portfolio_shot"
+          width="100"
+          height="100"
+        ></img>
       </header>
     </div>
   );
