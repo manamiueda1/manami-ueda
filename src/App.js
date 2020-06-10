@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import portfolio from "./portfolio_img.jpg";
-
+import Nav from "./Nav";
 function App() {
   // return (
   //   <div className="App">
@@ -40,7 +40,39 @@ function App() {
           alt="portfolio_img"
         ></img>
       </div>
-      <div className="About-me"></div>
+
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+
+      <div className="About-me">
+        <h2>About Me</h2>
+        <p>
+          For Manami Ueda, ethics is the central feature of her business
+          mindset. A three-year veteran of the tech industry, Manami knows that
+          when a company is ethical and respectful to its customers and
+          employees, that its business thrives. She brings that knowledge to
+          everything she does, whether it be coding, human resources, or
+          advertising. A former assistant director for a mobile application
+          development company in Chicago, Manami was also an integral part of an
+          advertising technology company in New York. Furthermore, she is a
+          recent graduate of Fullstack Academy, which bolstered her business
+          savvy with incredible in-sights into coding and computer science. For
+          Manami, the most exciting part of coding is seeing the results of what
+          she is building – of witnessing people interact with programs and
+          processes that she designed.
+        </p>
+      </div>
+      <div className="Projects">
+        <h2>Projects</h2>
+      </div>
+      <div className="Resume">
+        <h2>Resume</h2>
+      </div>
+      <div className="Contact Me">
+        <h2>Contact Me!</h2>
+      </div>
     </div>
   );
 }

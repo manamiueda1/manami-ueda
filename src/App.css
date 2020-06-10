@@ -8,7 +8,7 @@
 .Intro {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 .App-header {
   display: flex;
@@ -43,4 +43,32 @@
   height: auto;
   text-align: right;
   float: right;
+  margin-left: 200px;
+}
+
+.About-me {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: ambroise-std;
+  font-weight: 900;
+  font-size: 52px;
+  letter-spacing: -3px;
+  line-height: 0.9em;
+  color: #000;
+  text-align: center;
+}
+
+p {
+  align-self: center;
+
+  font-family: ambroise-std;
+  font-weight: 80;
+  font-size: 22px;
+  line-height: 1.5em;
+  width: 1000px;
 }
