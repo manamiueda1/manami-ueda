@@ -1,50 +1,46 @@
 .App {
   margin-top: 100px;
   margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
+.Intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .App-header {
-  /* font-family: proxima-nova;
-  font-weight: 100;
-  font-style: normal;
-  font-size: 15px;
-  letter-spacing: 0.025em;
-  line-height: 2.2em;
-  text-transform: none;
-  color: #000; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-h3 {
-  display: block;
+.Three-headings {
+  margin-bottom: 0px;
   color: #000;
   font-family: din-condensed-web;
   font-weight: 500;
   font-style: normal;
   letter-spacing: 0.01em;
   line-height: 0.9em;
-  text-transform: uppercase;
   text-rendering: optimizeLegibility;
 }
 
 .Name {
-  /* display: inline; */
-  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 150px;
   font-family: ambroise-std;
   font-weight: 900;
-  font-style: normal;
   font-size: 130px;
   letter-spacing: -3px;
   line-height: 0.9em;
-  text-transform: uppercase;
   color: #000;
-  text-rendering: optimizeLegibility;
 }
 
 .Portfolio_img {
-  display: inline-block;
   width: 350px;
   height: auto;
   text-align: right;
+  float: right;
 }

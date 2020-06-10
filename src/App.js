@@ -23,17 +23,24 @@ function App() {
   // );
   return (
     <div className="App">
-      <header className="App-header">
-        <h3>SOFTWARE ENGINEER, WEB DEVELOPER & YOGI</h3>
-        <h1 className="Name">
-          MANAMI <br></br> UEDA
-        </h1>
+      <div className="Intro">
+        <header className="App-header">
+          <h3 className="Three-headings">
+            SOFTWARE ENGINEER, WEB DEVELOPER & YOGI
+          </h3>
+
+          <h1 className="Name">
+            MANAMI <br></br> UEDA
+          </h1>
+        </header>
+        <br></br>
         <img
           src={portfolio}
           className="Portfolio_img"
           alt="portfolio_img"
         ></img>
-      </header>
+      </div>
+      <div className="About-me"></div>
     </div>
   );
 }
