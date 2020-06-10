@@ -29,6 +29,7 @@ h3 {
 }
 
 .Name {
+  /* display: inline; */
   text-align: left;
   font-family: ambroise-std;
   font-weight: 900;
@@ -39,4 +40,11 @@ h3 {
   text-transform: uppercase;
   color: #000;
   text-rendering: optimizeLegibility;
+}
+
+.Portfolio_img {
+  display: inline-block;
+  width: 350px;
+  height: auto;
+  text-align: right;
 }
