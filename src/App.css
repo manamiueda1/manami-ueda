@@ -31,7 +31,6 @@
   margin-top: 0px;
   margin-bottom: 150px;
   font-family: ambroise-std;
-  font-weight: 900;
   font-size: 130px;
   letter-spacing: -3px;
   line-height: 0.9em;
@@ -51,16 +50,14 @@
   flex-direction: column;
 }
 
-h2 {
+h1 {
   display: flex;
   justify-content: center;
   font-family: ambroise-std;
-  font-weight: 900;
   font-size: 52px;
   letter-spacing: -3px;
   line-height: 0.9em;
   color: #000;
-  text-align: center;
 }
 
 p {
@@ -71,4 +68,16 @@ p {
   font-size: 22px;
   line-height: 1.5em;
   width: 1000px;
+}
+
+.Projects {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  align-self: center;
+  font-family: ambroise-std;
+  line-height: 0.9em;
+  color: #000;
 }

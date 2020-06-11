@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import portfolio from "./portfolio_img.jpg";
 import Nav from "./Nav";
+
 function App() {
   // return (
   //   <div className="App">
@@ -47,7 +48,7 @@ function App() {
       <br></br>
 
       <div className="About-me">
-        <h2>About Me</h2>
+        <h1>About Me</h1>
         <p>
           For Manami Ueda, ethics is the central feature of her business
           mindset. A three-year veteran of the tech industry, Manami knows that
@@ -65,13 +66,21 @@ function App() {
         </p>
       </div>
       <div className="Projects">
-        <h2>Projects</h2>
+        <h1>Projects</h1>
+        <h2>Fit-Minded</h2>
+        <h2>Image-to-Voice</h2>
+        <h2>Car-Ify</h2>
       </div>
+
       <div className="Resume">
-        <h2>Resume</h2>
+        <h1>Resume</h1>
       </div>
-      <div className="Contact Me">
-        <h2>Contact Me!</h2>
+      <div className="Contact-Me">
+        <h1>Contact Me!</h1>
+      </div>
+
+      <div className="Tech-stack">
+        <h1>Technologies I've used</h1>
       </div>
     </div>
   );
