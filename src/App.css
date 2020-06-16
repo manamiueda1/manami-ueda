@@ -69,6 +69,14 @@
   background-color: rgb(203, 15, 93);
 }
 
+.Short-bar {
+  margin-left: 3px;
+  align-self: center;
+  height: 3px;
+  width: 120px;
+  background-color: rgb(203, 15, 93);
+}
+
 .About-me,
 .Resume,
 .Contact-Me {
@@ -100,6 +108,38 @@ h3 {
   /* color: rgb(153, 1, 65); */
 }
 
+.Try-demo,
+.View-code {
+  font-family: Sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  align-self: center;
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 2px;
+  width: 200px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+  margin-left: 80px;
+}
+
+.View-code {
+  margin-left: 20px;
+}
+
+.Try-demo:hover,
+.View-code:hover {
+  background-color: black;
+  color: white;
+}
+
 .Projects {
   display: flex;
   flex-direction: column;
@@ -107,14 +147,18 @@ h3 {
 }
 
 h2 {
+  margin-top: 80px;
+
   align-self: center;
   font-family: ambroise-std;
-  font-size: 30px;
+  font-size: 40px;
   line-height: 0.9em;
   color: #000;
 }
 
-.FitMinded {
+.FitMinded,
+.Resume,
+.Contact-me {
   display: flex;
   flex-direction: column;
   justify-content: center;

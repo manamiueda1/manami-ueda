@@ -79,11 +79,10 @@ function App() {
         <br></br>
         <h1>Projects</h1>
         <div class="Bar"></div>
-        <br></br>
-        <br></br>
+
         <div className="FitMinded">
           <h2>FitMinded</h2>
-          <br></br>
+
           <br></br>
           <div className="fit">
             <img src={fit} className="Fit-img" alt="Fit-img"></img>
@@ -101,10 +100,23 @@ function App() {
                 experience level or personal preference, FitMinded will help
                 fitness enthusiasts connect with others.
                 <br></br>
+                <h4>Technologies Used:</h4>
+                <div class="Short-bar"></div>
                 <br></br>
-                Technologies: Javascript, React.js, Node.js, MongoDB, Mongoose
-                etc.
+                Javascript, React.js, Node.js, MongoDB, Mongoose etc.
               </p>
+              <div>
+                <input
+                  className="Try-demo"
+                  type="button"
+                  value="Try Demo"
+                ></input>
+                <input
+                  className="View-code"
+                  type="button"
+                  value="View Code"
+                ></input>
+              </div>
             </div>
           </div>
         </div>
@@ -117,9 +129,9 @@ function App() {
         <h1>Resume</h1>
         <div class="Bar"></div>
       </div>
-      <div className="Contact-Me">
-        <h1>Contact Me!</h1>
-        <div class="Bar"></div>
+      <div className="Contact-me">
+        <h1>Contact</h1>
+        {/* <div class="Bar"></div> */}
       </div>
     </div>
   );
