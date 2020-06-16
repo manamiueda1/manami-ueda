@@ -17,24 +17,41 @@
 }
 
 .Three-headings {
-  margin-bottom: 0px;
   color: #000;
   font-family: din-condensed-web;
   font-weight: 500;
   font-style: normal;
   letter-spacing: 0.01em;
   line-height: 0.9em;
-  text-rendering: optimizeLegibility;
 }
 
 .Name {
-  margin-top: 0px;
-  margin-bottom: 150px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
   font-family: ambroise-std;
   font-size: 130px;
   letter-spacing: -3px;
   line-height: 0.9em;
   color: #000;
+}
+
+.Bar-intro {
+  margin-left: 10px;
+  height: 3px;
+  width: 180px;
+  background-color: rgb(203, 15, 93);
+}
+
+.Linkedin {
+  margin-left: 15px;
+  margin-top: 15px;
+  width: 60px;
+}
+.Github {
+  margin-bottom: 1px;
+  margin-left: 20px;
+  width: 54px;
 }
 
 .Portfolio_img {
@@ -45,7 +62,16 @@
   margin-left: 200px;
 }
 
-.About-me {
+.Bar {
+  align-self: center;
+  height: 3px;
+  width: 180px;
+  background-color: rgb(203, 15, 93);
+}
+
+.About-me,
+.Resume,
+.Contact-Me {
   display: flex;
   flex-direction: column;
 }
@@ -54,30 +80,58 @@ h1 {
   display: flex;
   justify-content: center;
   font-family: ambroise-std;
-  font-size: 52px;
-  letter-spacing: -3px;
+  font-size: 55px;
+  letter-spacing: 1px;
   line-height: 0.9em;
   color: #000;
 }
-
 p {
   align-self: center;
-
   font-family: ambroise-std;
   font-weight: 80;
   font-size: 22px;
   line-height: 1.5em;
+}
+
+.About-me-p {
   width: 1000px;
+}
+h3 {
+  /* color: rgb(153, 1, 65); */
 }
 
 .Projects {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 h2 {
   align-self: center;
   font-family: ambroise-std;
+  font-size: 30px;
   line-height: 0.9em;
   color: #000;
+}
+
+.FitMinded {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Fit-img {
+  width: 350px;
+  height: auto;
+}
+.fit {
+  display: flex;
+  justify-content: center;
+}
+
+.Fit-description p {
+  margin-left: 80px;
+  text-align: left;
+  float: right;
+  width: 700px;
 }
