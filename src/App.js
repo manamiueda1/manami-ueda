@@ -21,8 +21,12 @@ function App() {
 
           <div class="Bar-intro"></div>
           <div>
-            <img src={linkedin} className="Linkedin" alt="linkedin"></img>
-            <img src={github} className="Github" alt="github"></img>
+            <a href="https://www.linkedin.com/in/manami-ueda/" target="_blank">
+              <img src={linkedin} className="Linkedin" alt="linkedin"></img>
+            </a>
+            <a href="https://github.com/manamiueda1" target="_blank">
+              <img src={github} className="Github" alt="github"></img>
+            </a>
           </div>
         </header>
         <br></br>
@@ -106,16 +110,22 @@ function App() {
                 Javascript, React.js, Node.js, MongoDB, Mongoose etc.
               </p>
               <div>
-                <input
+                <a
+                  href="http://fit-minded-ny.herokuapp.com/"
+                  target="_blank"
                   className="Try-demo"
                   type="button"
-                  value="Try Demo"
-                ></input>
-                <input
+                >
+                  Try Demo
+                </a>
+                <a
+                  href="https://github.com/Fit-Minded/fit-minded"
+                  target="_blank"
                   className="View-code"
                   type="button"
-                  value="View Code"
-                ></input>
+                >
+                  View Code
+                </a>
               </div>
             </div>
           </div>
