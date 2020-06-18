@@ -6,7 +6,7 @@ import github from "./images/github-logo.png";
 
 function Intro() {
   return (
-    <div className="Intro">
+    <div id="Intro">
       <header className="App-header">
         <h3 className="Three-headings">
           SOFTWARE ENGINEER, WEB DEVELOPER & YOGI

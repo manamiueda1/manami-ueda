@@ -8,8 +8,8 @@
   justify-content: center;
 }
 
-.Intro {
-  margin-top: 200px;
+#Intro {
+  padding-top: 230px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -52,12 +52,10 @@
 
 .Linkedin {
   margin-left: 15px;
-  /* margin-top: 15px; */
   width: 60px;
 }
 .Github {
   margin-top: 5px;
-  /* margin-bottom: 1px; */
   margin-left: 20px;
   width: 54px;
 }
@@ -91,7 +89,7 @@
 #Contact-Me {
   display: flex;
   flex-direction: column;
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 h1 {

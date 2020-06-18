@@ -3,21 +3,29 @@
   justify-content: space-around;
   position: fixed;
   width: 100%;
-  z-index: 1;
   background-color: white;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 20px;
+}
+html {
+  scroll-behavior: smooth;
 }
 
-.Github {
+.Mu {
   display: flex;
   justify-content: flex-start;
+  font-family: Sans-serif;
+  color: black;
+  letter-spacing: 0.05em;
+}
+.Mu:hover {
+  content: "";
+  color: rgb(203, 15, 93);
 }
 
 .Nav-links {
   display: flex;
-  margin-top: 15px;
   justify-content: flex-end;
+  align-items: center;
 }
 
 li {
@@ -34,4 +42,21 @@ li {
 a {
   color: #000;
   text-decoration: none;
+}
+
+.border {
+  position: relative;
+}
+
+.border::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 10px;
+  border-bottom: 3px solid rgb(203, 15, 93);
+  transition: width 0.3s;
+}
+
+.border:hover::after {
+  width: 100%;
 }

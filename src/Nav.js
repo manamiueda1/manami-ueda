@@ -1,25 +1,33 @@
 import React from "react";
 import "./Nav.css";
-import github from "./images/github-logo.png";
 
 function Nav() {
   return (
     <div className="Nav">
-      <img src={github} className="Github" alt="github"></img>
-
+      <a href="#Intro">
+        <h1 className="Mu">MU</h1>
+      </a>
       <div className="Nav-links">
         <li>
-          <a href="#About-me">About Me</a>
+          <a class="border" href="#About-me">
+            About Me
+          </a>
         </li>
         <li>
-          <a href="#Projects">Projects</a>
+          <a class="border" href="#Projects">
+            Projects
+          </a>
         </li>
 
         <li>
-          <a href="#Resume">Resume</a>
+          <a class="border" href="#Resume">
+            Resume
+          </a>
         </li>
         <li>
-          <a href="#Contact-me">Contact</a>
+          <a class="border" href="#Contact-me">
+            Contact
+          </a>
         </li>
       </div>
     </div>
