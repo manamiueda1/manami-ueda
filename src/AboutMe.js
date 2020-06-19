@@ -10,18 +10,19 @@ function AboutMe() {
 
       <br></br>
       <p className="About-me-p">
-        For Manami Ueda, ethics is the central feature of her business mindset.
-        A three-year veteran of the tech industry, Manami knows that when a
-        company is ethical and respectful to its customers and employees, that
-        its business thrives. She brings that knowledge to everything she does,
-        whether it be coding, human resources, or advertising. A former
-        assistant director for a mobile application development company in
-        Chicago, Manami was also an integral part of an advertising technology
-        company in New York. Furthermore, she is a recent graduate of Fullstack
-        Academy, which bolstered her business savvy with incredible in-sights
-        into coding and computer science. For Manami, the most exciting part of
-        coding is seeing the results of what she is building – of witnessing
-        people interact with programs and processes that she designed.
+        Hi! I'm Manami, a full-stack software engineer based in New York City.
+        Originally from Chicago, I began my career in the tech industry as a
+        Product Manager for a mobile application development company. Shortly
+        after that, I moved to New York City and joined an AdTech company as a
+        Platform Sales Rep. I wanted to form a deeper understanding of the
+        technology I was selling and create a more authentic bond between the
+        product and the customer, which then led me to enroll in Fullstack
+        Academy's Software Engineering Immersive Program. Now a recent graduate
+        from Fullstack Academy, I have enhanced my knowledge on what it means to
+        be a part of how a product is developed and the incredible feeling that
+        comes with helping others understand the product from the ground up.
+        That aside, when I’m not coding, I can be found doing inversions in the
+        yoga studio or whipping up new recipes in the kitchen.
         <br></br>
         <br></br>
         <h3>Technologies I've Worked With</h3>
