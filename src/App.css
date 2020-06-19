@@ -6,6 +6,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #Intro {
@@ -83,15 +85,6 @@
   background-color: rgb(203, 15, 93);
 }
 
-#About-me,
-#Resume,
-#Projects,
-#Contact-Me {
-  display: flex;
-  flex-direction: column;
-  padding-top: 150px;
-}
-
 h1 {
   display: flex;
   justify-content: center;
@@ -110,10 +103,28 @@ p {
 }
 
 .About-me-p {
+  padding-top: 20px;
   width: 1000px;
 }
-h3 {
-  /* color: rgb(153, 1, 65); */
+
+#About-me,
+#Projects,
+#Resume,
+#Contact-me {
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+.FitMinded,
+.Image-to-voice,
+.Car-ify {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: center;
 }
 
 .Try-demo,
@@ -147,15 +158,9 @@ h3 {
   color: white;
 }
 
-#Projects {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 h2 {
-  margin-top: 80px;
-
+  margin-top: 100px;
+  margin-bottom: 60px;
   align-self: center;
   font-family: ambroise-std;
   font-size: 40px;
@@ -163,26 +168,31 @@ h2 {
   color: #000;
 }
 
-.FitMinded,
-.Resume,
-.Contact-me {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .Fit-img {
   width: 350px;
   height: auto;
-}
-.fit {
-  display: flex;
-  justify-content: center;
+  padding-right: 50px;
 }
 
-.Fit-description p {
+.imageMac,
+.carImage {
+  width: 600px;
+  height: auto;
+}
+
+.fit,
+.imageTo,
+.Carify {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Fit-description p,
+.Image-description p,
+.Car-description p {
   margin-left: 80px;
   text-align: left;
   float: right;
-  width: 700px;
+  width: 750px;
 }

@@ -3,8 +3,9 @@ import "./App.css";
 import Nav from "./Nav";
 import Intro from "./Intro.js";
 import AboutMe from "./AboutMe.js";
-
 import Projects from "./Projects";
+import Resume from "./Resume";
+import Contact from "./ContactMe";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <Intro />
         <AboutMe />
         <Projects />
+        <Resume />
+        <Contact />
       </div>
     </div>
   );
