@@ -23,12 +23,35 @@
 }
 
 .Three-headings {
+  overflow: hidden;
+  border-right: solid rgb(203, 15, 93);
+  white-space: nowrap;
+  animation: typing 3.5s steps(33, end), blink-caret 0.75s step-end infinite;
   color: #000;
   font-family: din-condensed-web;
   font-weight: 500;
   font-style: normal;
   letter-spacing: 0.01em;
   line-height: 0.9em;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(203, 15, 93);
+  }
 }
 
 .Name {
@@ -60,6 +83,12 @@
   margin-top: 5px;
   margin-left: 20px;
   width: 54px;
+}
+
+.Linkedin:hover,
+.Github:hover {
+  opacity: 0.5;
+  /* transition: 0.1s; */
 }
 
 .Portfolio_img {

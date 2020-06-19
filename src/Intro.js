@@ -9,7 +9,7 @@ function Intro() {
     <div id="Intro">
       <header className="App-header">
         <h3 className="Three-headings">
-          SOFTWARE ENGINEER, WEB DEVELOPER & YOGI
+          FULL-STACK SOFTWARE ENGINEER & WEB DEVELOPER
         </h3>
 
         <h1 className="Name">

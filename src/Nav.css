@@ -17,6 +17,7 @@ html {
   color: black;
   letter-spacing: 0.05em;
 }
+
 .Mu:hover {
   content: "";
   color: rgb(203, 15, 93);
