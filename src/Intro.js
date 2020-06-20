@@ -17,6 +17,7 @@ function Intro() {
         </h1>
 
         <div class="Bar-intro"></div>
+
         <div className="Social">
           <a href="https://www.linkedin.com/in/manami-ueda/" target="_blank">
             <img src={linkedin} className="Linkedin" alt="linkedin"></img>
@@ -26,7 +27,7 @@ function Intro() {
           </a>
         </div>
       </header>
-      <br></br>
+
       <img src={portfolio} className="Portfolio_img" alt="portfolio_img"></img>
     </div>
   );

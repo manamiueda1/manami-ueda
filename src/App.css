@@ -4,29 +4,28 @@
 
 #Content {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 #Intro {
   padding-top: 230px;
   display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
-  justify-content: center;
 }
+
 .App-header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 500px;
 }
 
 .Three-headings {
   overflow: hidden;
   border-right: solid rgb(203, 15, 93);
   white-space: nowrap;
-  animation: typing 3.5s steps(33, end), blink-caret 0.75s step-end infinite;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
   color: #000;
   font-family: din-condensed-web;
   font-weight: 500;
@@ -56,7 +55,6 @@
 .Name {
   margin-top: 15px;
   margin-bottom: 15px;
-
   font-family: ambroise-std;
   font-size: 130px;
   letter-spacing: -3px;
@@ -69,9 +67,6 @@
   height: 3px;
   width: 180px;
   background-color: rgb(203, 15, 93);
-}
-.Social {
-  display: flex;
 }
 
 .Linkedin {
@@ -87,15 +82,12 @@
 .Linkedin:hover,
 .Github:hover {
   opacity: 0.5;
-  /* transition: 0.1s; */
 }
 
 .Portfolio_img {
-  width: 350px;
-  height: auto;
-  text-align: right;
-  float: right;
-  margin-left: 200px;
+  padding-top: 20px;
+  width: auto;
+  height: 500px;
 }
 
 .Bar {
@@ -113,9 +105,17 @@
   background-color: rgb(203, 15, 93);
 }
 
-h1 {
+#About-me,
+#Projects,
+#Resume,
+#Contact-me {
+  padding-top: 150px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  align-self: center;
   font-family: ambroise-std;
   font-size: 55px;
   letter-spacing: 1px;
@@ -133,17 +133,6 @@ p {
 .About-me-p {
   padding-top: 20px;
   width: 1000px;
-}
-
-#About-me,
-#Projects,
-#Resume,
-#Contact-me {
-  padding-top: 150px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  justify-content: center;
 }
 
 .Resume-link {
@@ -204,14 +193,12 @@ h2 {
 .Fit-img {
   width: 350px;
   height: auto;
-  padding-right: 130px;
 }
 
 .imageMac,
 .carImage {
   width: 550px;
   height: auto;
-  padding-right: 100px;
 }
 
 .fit,
@@ -219,6 +206,8 @@ h2 {
 .Carify {
   display: flex;
   justify-content: center;
+  justify-content: space-evenly;
+
   flex-wrap: wrap;
 }
 
