@@ -1,8 +1,11 @@
 .App {
   margin-bottom: 100px;
+  width: 100%;
 }
 
 #Content {
+  width: 100%;
+
   display: flex;
   flex-direction: column;
 }
@@ -135,11 +138,6 @@ p {
   width: 1000px;
 }
 
-.Resume-link {
-  align-self: center;
-  padding-top: 80px;
-}
-
 .FitMinded,
 .Image-to-voice,
 .Car-ify {
@@ -149,8 +147,15 @@ p {
   justify-content: center;
 }
 
+.Resume-link {
+  align-self: center;
+  padding-top: 80px;
+}
+
 .Try-demo,
-.View-code {
+.View-code,
+.submit {
+  align-self: center;
   font-family: Sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -162,20 +167,17 @@ p {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 20px 2px;
+  margin: 30px 5px 20px 5px;
   width: 200px;
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease 0s;
-  margin-right: 15px;
-}
-
-.View-code {
-  margin-left: 15px;
+  outline: 0;
 }
 
 .Try-demo:hover,
-.View-code:hover {
+.View-code:hover,
+.submit:hover {
   background-color: black;
   color: white;
 }
@@ -217,4 +219,35 @@ h2 {
   text-align: left;
   float: right;
   width: 750px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#formName {
+  margin-top: 50px;
+}
+
+.feedback-input {
+  align-self: center;
+
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  background-color: transparent;
+  border: 2px solid;
+  padding: 20px;
+  margin-top: 20px;
+  outline: 0;
+  width: 400px;
+}
+
+textarea {
+  height: 200px;
+}
+
+.feedback-input:focus {
+  border-color: rgb(203, 15, 93);
 }

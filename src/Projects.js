@@ -34,7 +34,7 @@ function Projects() {
               <br></br>
               Javascript, React.js, Node.js, MongoDB, Mongoose etc.
             </p>
-            <div>
+            <div className="buttons">
               <a
                 href="http://fit-minded-ny.herokuapp.com/"
                 target="_blank"

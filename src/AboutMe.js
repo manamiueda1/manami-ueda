@@ -28,16 +28,18 @@ function AboutMe() {
         <h3>Technologies I've Worked With</h3>
         <div class="Bar"></div>
         <br></br>
-        Language: JavaScript (ES6+)
+        <strong>Language:</strong> JavaScript (ES6+)
         <br></br>
-        Frontend: React.js, Redux, HTML, CSS
+        <strong>Frontend:</strong> React.js, Redux, HTML, CSS
         <br></br>
-        Backend: Node.js, Express, Sequelize, PostgreSQL, Mongoose, MongoDB,
-        RESTful API
+        <strong>Backend:</strong> Node.js, Express, Sequelize, PostgreSQL,
+        Mongoose, MongoDB, RESTful API
         <br></br>
-        DevOps: Heroku, Firebase, TDD (Mocha, Chai, Jasmine)
+        <strong>DevOps:</strong> DevOps: Heroku, Firebase, TDD (Mocha, Chai,
+        Jasmine)
         <br></br>
-        Tools: npm, GitHub, GIT, Visual Studio Code, Postman, Postico, Compass
+        <strong>Tools:</strong> npm, GitHub, GIT, Visual Studio Code, Postman,
+        Postico, Compass
       </p>
     </div>
   );
