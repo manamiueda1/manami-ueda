@@ -146,6 +146,11 @@ p {
   justify-content: center;
 }
 
+.Resume-link {
+  align-self: center;
+  padding-top: 80px;
+}
+
 .FitMinded,
 .Image-to-voice,
 .Car-ify {
@@ -173,11 +178,11 @@ p {
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease 0s;
-  margin-left: 80px;
+  margin-right: 15px;
 }
 
 .View-code {
-  margin-left: 20px;
+  margin-left: 15px;
 }
 
 .Try-demo:hover,
@@ -199,13 +204,14 @@ h2 {
 .Fit-img {
   width: 350px;
   height: auto;
-  padding-right: 50px;
+  padding-right: 130px;
 }
 
 .imageMac,
 .carImage {
   width: 600px;
   height: auto;
+  padding-right: 130px;
 }
 
 .fit,
@@ -219,7 +225,6 @@ h2 {
 .Fit-description p,
 .Image-description p,
 .Car-description p {
-  margin-left: 80px;
   text-align: left;
   float: right;
   width: 750px;

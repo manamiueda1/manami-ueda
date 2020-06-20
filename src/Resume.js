@@ -6,6 +6,24 @@ function Resume() {
     <div id="Resume">
       <h1>Resume</h1>
       <div class="Bar"></div>
+      <div className="Resume-link">
+        <a
+          href="https://manami-stackathon.firebaseapp.com/"
+          target="_blank"
+          className="Try-demo"
+          type="button"
+        >
+          View Resume
+        </a>
+        <a
+          href="https://github.com/manamiueda1/stackathon"
+          target="_blank"
+          className="View-code"
+          type="button"
+        >
+          Download Resume
+        </a>
+      </div>
     </div>
   );
 }
