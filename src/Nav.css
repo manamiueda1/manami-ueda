@@ -1,6 +1,6 @@
 .Nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   position: fixed;
   width: 100%;
   background-color: white;
@@ -11,22 +11,20 @@ html {
 }
 
 .Mu {
-  display: flex;
-  justify-content: flex-start;
-  font-family: Georgia, serif;
-  color: black;
-  letter-spacing: 0.05em;
+  width: 85px;
+  margin-left: 100px;
 }
 
 .Mu:hover {
   content: "";
-  color: rgb(203, 15, 93);
+  background-color: rgb(216, 109, 154);
 }
 
 .Nav-links {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-right: 80px;
 }
 
 li {

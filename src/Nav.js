@@ -1,11 +1,12 @@
 import React from "react";
 import "./Nav.css";
+import mu from "./images/mu.png";
 
 function Nav() {
   return (
     <div className="Nav">
-      <a href="#Intro">
-        <h1 className="Mu">MU</h1>
+      <a href="#Content">
+        <img src={mu} className="Mu" alt="mu"></img>
       </a>
       <div className="Nav-links">
         <li>
