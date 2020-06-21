@@ -6,6 +6,7 @@ import AboutMe from "./AboutMe.js";
 import Projects from "./Projects";
 import Resume from "./Resume";
 import Contact from "./ContactMe";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Projects />
         <Resume />
         <Contact />
+        <Footer />
       </div>
     </div>
   );

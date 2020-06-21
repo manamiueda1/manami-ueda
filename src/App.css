@@ -1,5 +1,4 @@
 .App {
-  margin-bottom: 100px;
   width: 100%;
 }
 
@@ -77,13 +76,27 @@
   width: 60px;
 }
 .Github {
-  margin-top: 5px;
-  margin-left: 20px;
-  width: 54px;
+  width: 105px;
+}
+
+.Mail {
+  width: 40px;
+  margin-bottom: 3px;
+  margin-right: 4px;
+  padding-left: 20px;
+}
+
+.Footer-links .Linkedin {
+  width: 40px;
+  margin-bottom: 1px;
+}
+.Footer-links .Github {
+  width: 75px;
 }
 
 .Linkedin:hover,
-.Github:hover {
+.Github:hover,
+.Mail:hover {
   opacity: 0.5;
 }
 
@@ -111,7 +124,8 @@
 #About-me,
 #Projects,
 #Resume,
-#Contact-me {
+#Contact-me,
+#Footer {
   padding-top: 150px;
   display: flex;
   flex-direction: column;
@@ -209,7 +223,6 @@ h2 {
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
-
   flex-wrap: wrap;
 }
 
@@ -250,4 +263,18 @@ textarea {
 
 .feedback-input:focus {
   border-color: rgb(203, 15, 93);
+}
+
+.Footer-content {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+}
+
+.Footer-links {
+  align-self: center;
+}
+span {
+  padding-top: 20px;
+  margin-bottom: 10px;
 }
