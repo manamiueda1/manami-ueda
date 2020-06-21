@@ -7,14 +7,20 @@ function ContactMe() {
       <h1>Contact</h1>
       <div class="Bar"></div>
 
-      <form className="ContactForm">
+      <form
+        action="mailto:manamiueda1@gmail.com"
+        className="ContactForm"
+        method="post"
+        enctype="multipart/form-data"
+        name="EmailForm"
+      >
         <input
           id="formName"
           name="name"
           type="text"
           class="feedback-input"
           placeholder="Name"
-        />
+        ></input>
         <input
           name="email"
           type="text"
