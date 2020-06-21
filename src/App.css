@@ -92,6 +92,7 @@
 }
 .Footer-links .Github {
   width: 75px;
+  opacity: 0.75;
 }
 
 .Linkedin:hover,

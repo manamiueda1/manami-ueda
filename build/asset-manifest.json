@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.bc05e162.chunk.css",
-    "main.js": "/static/js/main.d879583a.chunk.js",
-    "main.js.map": "/static/js/main.d879583a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5e682c5b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5e682c5b.js.map",
-    "static/js/2.5a65e8f4.chunk.js": "/static/js/2.5a65e8f4.chunk.js",
-    "static/js/2.5a65e8f4.chunk.js.map": "/static/js/2.5a65e8f4.chunk.js.map",
+    "main.css": "/static/css/main.928f1798.chunk.css",
+    "main.js": "/static/js/main.0d4b78c8.chunk.js",
+    "main.js.map": "/static/js/main.0d4b78c8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5197e789.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5197e789.js.map",
+    "static/js/2.0fd44f6a.chunk.js": "/static/js/2.0fd44f6a.chunk.js",
+    "static/js/2.0fd44f6a.chunk.js.map": "/static/js/2.0fd44f6a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b918d34daed8424a9166aee43e054993.js": "/precache-manifest.b918d34daed8424a9166aee43e054993.js",
+    "precache-manifest.8758b1cf1a6b0c8667f467d3ed2a53d9.js": "/precache-manifest.8758b1cf1a6b0c8667f467d3ed2a53d9.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.bc05e162.chunk.css.map": "/static/css/main.bc05e162.chunk.css.map",
-    "static/js/2.5a65e8f4.chunk.js.LICENSE.txt": "/static/js/2.5a65e8f4.chunk.js.LICENSE.txt",
+    "static/css/main.928f1798.chunk.css.map": "/static/css/main.928f1798.chunk.css.map",
+    "static/js/2.0fd44f6a.chunk.js.LICENSE.txt": "/static/js/2.0fd44f6a.chunk.js.LICENSE.txt",
     "static/media/Manami_Ueda_Resume_website.pdf": "/static/media/Manami_Ueda_Resume_website.c7cf6c6c.pdf",
     "static/media/car-ify-image.png": "/static/media/car-ify-image.c420da08.png",
     "static/media/fit-minded-iphone-image.png": "/static/media/fit-minded-iphone-image.bc24c75a.png",
-    "static/media/github-logo.png": "/static/media/github-logo.3480db5e.png",
+    "static/media/github-logo.png": "/static/media/github-logo.1ae8b734.png",
     "static/media/image-to-voice.png": "/static/media/image-to-voice.03c59072.png",
+    "static/media/mail-logo.png": "/static/media/mail-logo.371c3219.png",
     "static/media/mu.png": "/static/media/mu.43bcc928.png",
     "static/media/portfolio_img.jpg": "/static/media/portfolio_img.335a6e08.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5e682c5b.js",
-    "static/js/2.5a65e8f4.chunk.js",
-    "static/css/main.bc05e162.chunk.css",
-    "static/js/main.d879583a.chunk.js"
+    "static/js/runtime-main.5197e789.js",
+    "static/js/2.0fd44f6a.chunk.js",
+    "static/css/main.928f1798.chunk.css",
+    "static/js/main.0d4b78c8.chunk.js"
   ]
 }

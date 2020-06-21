@@ -32,7 +32,8 @@ function Projects() {
               <h4>Technologies Used:</h4>
               <div class="Short-bar"></div>
               <br></br>
-              Javascript, React.js, Node.js, MongoDB, Mongoose etc.
+              Javascript, React.js, Redux.js, Node.js, Express, MongoDB,
+              Mongoose, Pusher API, Google Maps API, Google Places API, Firebase
             </p>
             <div className="buttons">
               <a

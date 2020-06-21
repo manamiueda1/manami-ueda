@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+// import formFunc from "./functions/formFunc.js";
 
 function ContactMe() {
   return (
@@ -8,11 +9,12 @@ function ContactMe() {
       <div class="Bar"></div>
 
       <form
-        action="mailto:manamiueda1@gmail.com"
         className="ContactForm"
-        method="post"
-        enctype="multipart/form-data"
-        name="EmailForm"
+
+        // action="mailto:manamiueda1@gmail.com"
+        // method="post"
+        // enctype="multipart/form-data"
+        // name="EmailForm"
       >
         <input
           id="formName"
@@ -20,20 +22,25 @@ function ContactMe() {
           type="text"
           class="feedback-input"
           placeholder="Name"
-        ></input>
+          required="required"
+        />
         <input
           name="email"
           type="text"
           class="feedback-input"
           placeholder="Email"
+          required="required"
         />
         <textarea
           name="text"
           class="feedback-input"
           placeholder="Comment"
+          required="required"
         ></textarea>
 
-        <input className="submit" type="submit" value="send message" />
+        <button className="submit" type="submit">
+          Send Message
+        </button>
       </form>
     </div>
   );
