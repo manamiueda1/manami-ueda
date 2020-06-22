@@ -9,12 +9,13 @@ function ContactMe() {
       <div class="Bar"></div>
 
       <form
-        className="ContactForm"
+        name="Contact"
+        method="post"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        // action="https://mailthis.to/manamiueda1@gmail.com"
 
-        // action="mailto:manamiueda1@gmail.com"
-        // method="post"
         // enctype="multipart/form-data"
-        // name="EmailForm"
       >
         <input
           id="formName"
