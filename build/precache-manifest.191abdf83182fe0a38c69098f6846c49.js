@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6cbbc2a0421264f4ef1762623d8b4526",
+    "revision": "2808730cd1c1bd94cf4e825344b3b74f",
     "url": "/index.html"
   },
   {
-    "revision": "ed879050309123ca0a3a",
-    "url": "/static/css/main.928f1798.chunk.css"
+    "revision": "1ef176341a2c1b56d163",
+    "url": "/static/css/main.e3126736.chunk.css"
   },
   {
-    "revision": "95a65583af890702d861",
-    "url": "/static/js/2.0fd44f6a.chunk.js"
+    "revision": "c9ddb1fbf69a35c2fbc9",
+    "url": "/static/js/2.225d5e98.chunk.js"
   },
   {
     "revision": "5356fa2f66e46e6c05e4cbe319ac7f1d",
-    "url": "/static/js/2.0fd44f6a.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.225d5e98.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ed879050309123ca0a3a",
-    "url": "/static/js/main.0d4b78c8.chunk.js"
+    "revision": "1ef176341a2c1b56d163",
+    "url": "/static/js/main.8a089c27.chunk.js"
   },
   {
     "revision": "5a770d280d6845569b53",
     "url": "/static/js/runtime-main.5197e789.js"
   },
   {
-    "revision": "c7cf6c6c4e3996f8f61f8428beb09804",
-    "url": "/static/media/Manami_Ueda_Resume_website.c7cf6c6c.pdf"
+    "revision": "6587ec9ddb62d702114dbb3110962192",
+    "url": "/static/media/Manami_Ueda_Resume.6587ec9d.png"
+  },
+  {
+    "revision": "3c8af695d77e9dc012d8e449358bef98",
+    "url": "/static/media/Manami_Ueda_Resume_website.3c8af695.pdf"
   },
   {
     "revision": "c420da08b76f3d225cb7832833acf65b",

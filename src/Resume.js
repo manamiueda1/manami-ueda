@@ -7,7 +7,7 @@ function Resume() {
     <div id="Resume">
       <h1>Resume</h1>
       <div class="Bar"></div>
-      <img src={resumeImg} alt="resume" className="ResumeImg"></img>
+      {/* <img src={resumeImg} alt="resume" className="ResumeImg"></img> */}
       <div className="Resume-link">
         <a href={resumePdf} target="_blank" className="Try-demo" type="button">
           View Resume

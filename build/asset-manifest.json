@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.928f1798.chunk.css",
-    "main.js": "/static/js/main.0d4b78c8.chunk.js",
-    "main.js.map": "/static/js/main.0d4b78c8.chunk.js.map",
+    "main.css": "/static/css/main.e3126736.chunk.css",
+    "main.js": "/static/js/main.8a089c27.chunk.js",
+    "main.js.map": "/static/js/main.8a089c27.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5197e789.js",
     "runtime-main.js.map": "/static/js/runtime-main.5197e789.js.map",
-    "static/js/2.0fd44f6a.chunk.js": "/static/js/2.0fd44f6a.chunk.js",
-    "static/js/2.0fd44f6a.chunk.js.map": "/static/js/2.0fd44f6a.chunk.js.map",
+    "static/js/2.225d5e98.chunk.js": "/static/js/2.225d5e98.chunk.js",
+    "static/js/2.225d5e98.chunk.js.map": "/static/js/2.225d5e98.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8758b1cf1a6b0c8667f467d3ed2a53d9.js": "/precache-manifest.8758b1cf1a6b0c8667f467d3ed2a53d9.js",
+    "precache-manifest.191abdf83182fe0a38c69098f6846c49.js": "/precache-manifest.191abdf83182fe0a38c69098f6846c49.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.928f1798.chunk.css.map": "/static/css/main.928f1798.chunk.css.map",
-    "static/js/2.0fd44f6a.chunk.js.LICENSE.txt": "/static/js/2.0fd44f6a.chunk.js.LICENSE.txt",
-    "static/media/Manami_Ueda_Resume_website.pdf": "/static/media/Manami_Ueda_Resume_website.c7cf6c6c.pdf",
+    "static/css/main.e3126736.chunk.css.map": "/static/css/main.e3126736.chunk.css.map",
+    "static/js/2.225d5e98.chunk.js.LICENSE.txt": "/static/js/2.225d5e98.chunk.js.LICENSE.txt",
+    "static/media/Manami_Ueda_Resume.png": "/static/media/Manami_Ueda_Resume.6587ec9d.png",
+    "static/media/Manami_Ueda_Resume_website.pdf": "/static/media/Manami_Ueda_Resume_website.3c8af695.pdf",
     "static/media/car-ify-image.png": "/static/media/car-ify-image.c420da08.png",
     "static/media/fit-minded-iphone-image.png": "/static/media/fit-minded-iphone-image.bc24c75a.png",
     "static/media/github-logo.png": "/static/media/github-logo.1ae8b734.png",
@@ -23,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5197e789.js",
-    "static/js/2.0fd44f6a.chunk.js",
-    "static/css/main.928f1798.chunk.css",
-    "static/js/main.0d4b78c8.chunk.js"
+    "static/js/2.225d5e98.chunk.js",
+    "static/css/main.e3126736.chunk.css",
+    "static/js/main.8a089c27.chunk.js"
   ]
 }

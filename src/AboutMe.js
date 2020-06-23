@@ -18,11 +18,10 @@ function AboutMe() {
         technology I was selling and create a more authentic bond between the
         product and the customer, which then led me to enroll in Fullstack
         Academy's Software Engineering Immersive Program. Now a recent graduate
-        from Fullstack Academy, I have enhanced my knowledge on what it means to
-        be a part of how a product is developed and the incredible feeling that
-        comes with helping others understand the product from the ground up.
-        That aside, when I’m not coding, I can be found doing inversions in the
-        yoga studio or whipping up new recipes in the kitchen.
+        from Fullstack Academy, I am ready to start my next journey as a
+        software engineer with an organization centered around a passionate,
+        collaborative culture. Please check out my projects below and shoot me a
+        message or email me at manamiueda1@gmail.com - cheers!
         <br></br>
         <br></br>
         <h3>Technologies I've Worked With</h3>

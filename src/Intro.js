@@ -3,6 +3,7 @@ import "./App.css";
 import portfolio from "./images/portfolio_img.jpg";
 import linkedin from "./images/linkedin-logo.png";
 import github from "./images/github-logo.png";
+import mail from "./images/mail-logo.png";
 
 function Intro() {
   return (
@@ -19,6 +20,9 @@ function Intro() {
         <div class="Bar-intro"></div>
 
         <div className="Social">
+          <a href="mailto:manamiueda1@gmail.com" target="_blank">
+            <img src={mail} className="Mail" alt="mail"></img>
+          </a>
           <a href="https://www.linkedin.com/in/manami-ueda/" target="_blank">
             <img src={linkedin} className="Linkedin" alt="linkedin"></img>
           </a>
