@@ -21,7 +21,7 @@ html {
   background-color: rgb(211, 128, 162);
 }
 
-.Nav-links {
+.menu {
   display: flex;
   justify-content: flex-end;
   align-items: center;

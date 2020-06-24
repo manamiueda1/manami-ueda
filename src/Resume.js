@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import resumeImg from "./images/Manami_Ueda_Resume.png";
+// import resumeImg from "./images/Manami_Ueda_Resume.png";
 import resumePdf from "./images/Manami_Ueda_Resume_website.pdf";
 function Resume() {
   return (
@@ -19,7 +19,7 @@ function Resume() {
           className="View-code"
           type="button"
         >
-          Download a copy
+          Download Resume
         </a>
       </div>
     </div>

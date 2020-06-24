@@ -65,11 +65,10 @@ function Projects() {
 
           <div className="Image-description">
             <p>
-              Image-to-Voice is a progressive-web-app that allows image with
-              text to turn into audio. Upload an image with text on it and the
-              app will read it out loud to you. You can also pause and re-play
-              the audio. This app was created in 2 days during a solo
-              hack-a-thon.
+              Image-to-Voice is a progressive-web-app that allows an image with
+              text to turn into audio. Upload an image with text, and the app
+              will read it out loud to you. You can also pause and re-play the
+              audio. This app was created in 2 days during a solo hack-a-thon.
               <br></br>
               <h4>Technologies Used:</h4>
               <div class="Short-bar"></div>

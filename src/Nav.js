@@ -8,7 +8,8 @@ function Nav() {
       <a href="#Content">
         <img src={mu} className="Mu" alt="mu"></img>
       </a>
-      <div className="Nav-links">
+
+      <ul className="menu">
         <li>
           <a class="border" href="#About-me">
             About Me
@@ -30,7 +31,7 @@ function Nav() {
             Contact
           </a>
         </li>
-      </div>
+      </ul>
     </div>
   );
 }
