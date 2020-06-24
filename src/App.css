@@ -3,12 +3,12 @@
 }
 
 #Content {
-  /* position: absolute; */
   width: 100%;
-
   display: flex;
   flex-direction: column;
-  margin-left: 0 auto;
+  justify-content: center;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 #Intro {
@@ -16,6 +16,7 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  min-width: 100px;
 }
 
 .App-header {
@@ -32,7 +33,6 @@
   white-space: nowrap;
   animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
   color: #000;
-  /* font-family: din-condensed-web; */
   font-family: ambroise-std;
   font-weight: 500;
   letter-spacing: 0.01em;
@@ -133,7 +133,6 @@
   width: 120px;
   background-color: rgb(203, 15, 93);
 }
-
 #About-me,
 #Projects,
 #Resume,
@@ -153,24 +152,18 @@ h1 {
   color: #000;
 }
 p {
-  overflow-wrap: break-word;
   align-self: center;
   font-family: ambroise-std;
-  /* font-family: "Times New Roman", Times, serif; */
   font-weight: 80;
   font-size: 22px;
   line-height: 1.5em;
-  margin-left: auto;
-
-  margin-right: auto;
+  min-width: 300px;
 }
 
 .About-me-p {
-  margin-left: auto;
-
-  margin-right: auto;
   padding-top: 20px;
-  width: 1000px;
+  max-width: 1000px;
+  min-width: 300px;
 }
 
 .FitMinded,
@@ -185,8 +178,8 @@ p {
 .Resume-link {
   display: flex;
   justify-content: center;
-
   padding-top: 20px;
+  flex-wrap: wrap;
 }
 
 .Try-demo,
@@ -231,18 +224,12 @@ h2 {
 
 .Fit-img {
   width: auto;
-  /* max-width: 350px;
-  min-width: 100px; */
-
   height: 600px;
 }
 
 .imageMac,
 .carImage {
   width: auto;
-  /* max-width: 550px;
-  min-width: 100px; */
-
   height: 400px;
 }
 
@@ -255,12 +242,19 @@ h2 {
   flex-wrap: wrap;
 }
 
+.Fit-description,
+.Image-description,
+.Car-description {
+  min-width: 300px;
+}
+
 .Fit-description p,
 .Image-description p,
 .Car-description p {
   text-align: left;
   float: right;
-  width: 750px;
+  max-width: 750px;
+  min-width: 300px;
 }
 
 form {
