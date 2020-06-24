@@ -3,10 +3,12 @@
 }
 
 #Content {
+  /* position: absolute; */
   width: 100%;
 
   display: flex;
   flex-direction: column;
+  margin-left: 0 auto;
 }
 
 #Intro {
@@ -151,15 +153,22 @@ h1 {
   color: #000;
 }
 p {
+  overflow-wrap: break-word;
   align-self: center;
   font-family: ambroise-std;
   /* font-family: "Times New Roman", Times, serif; */
   font-weight: 80;
   font-size: 22px;
   line-height: 1.5em;
+  margin-left: auto;
+
+  margin-right: auto;
 }
 
 .About-me-p {
+  margin-left: auto;
+
+  margin-right: auto;
   padding-top: 20px;
   width: 1000px;
 }
