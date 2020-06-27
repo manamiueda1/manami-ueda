@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-// import formFunc from "./functions/formFunc.js";
 
 function ContactMe() {
   return (

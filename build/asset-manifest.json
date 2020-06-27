@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.86f325df.chunk.css",
-    "main.js": "/static/js/main.9ee4f06b.chunk.js",
-    "main.js.map": "/static/js/main.9ee4f06b.chunk.js.map",
+    "main.css": "/static/css/main.71a5ae33.chunk.css",
+    "main.js": "/static/js/main.66f5f94a.chunk.js",
+    "main.js.map": "/static/js/main.66f5f94a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5197e789.js",
     "runtime-main.js.map": "/static/js/runtime-main.5197e789.js.map",
     "static/js/2.225d5e98.chunk.js": "/static/js/2.225d5e98.chunk.js",
     "static/js/2.225d5e98.chunk.js.map": "/static/js/2.225d5e98.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cbbbbb8e2a764f71b0c4a2f7f2764b5d.js": "/precache-manifest.cbbbbb8e2a764f71b0c4a2f7f2764b5d.js",
+    "precache-manifest.4d7301a85d4ec17fb3891db85884aeb3.js": "/precache-manifest.4d7301a85d4ec17fb3891db85884aeb3.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.86f325df.chunk.css.map": "/static/css/main.86f325df.chunk.css.map",
+    "static/css/main.71a5ae33.chunk.css.map": "/static/css/main.71a5ae33.chunk.css.map",
     "static/js/2.225d5e98.chunk.js.LICENSE.txt": "/static/js/2.225d5e98.chunk.js.LICENSE.txt",
     "static/media/Manami_Ueda_Resume_website.pdf": "/static/media/Manami_Ueda_Resume_website.3c8af695.pdf",
     "static/media/car-ify-image.png": "/static/media/car-ify-image.c420da08.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.5197e789.js",
     "static/js/2.225d5e98.chunk.js",
-    "static/css/main.86f325df.chunk.css",
-    "static/js/main.9ee4f06b.chunk.js"
+    "static/css/main.71a5ae33.chunk.css",
+    "static/js/main.66f5f94a.chunk.js"
   ]
 }

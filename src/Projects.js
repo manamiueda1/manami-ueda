@@ -65,10 +65,11 @@ function Projects() {
 
           <div className="Image-description">
             <p>
-              Image-to-Voice is a progressive-web-app that allows an image with
-              text to turn into audio. Upload an image with text, and the app
-              will read it out loud to you. You can also pause and re-play the
-              audio. This app was created in 2 days during a solo hack-a-thon.
+              Image-to-Voice is a progressive web application that allows an
+              image with text to turn into audio. Upload an image with text, and
+              the app will read it out loud to you. You can also pause and
+              re-play the audio. This app was created in 2 days during a solo
+              hack-a-thon.
               <br></br>
               <h4>Technologies Used:</h4>
               <div class="Short-bar"></div>
@@ -106,8 +107,9 @@ function Projects() {
             <p>
               Car-Ify is an e-commerce website for buying cars. It allows you to
               filter your search, find your favorite cars and add them to your
-              cart. You can either check out as a guest or sign in and view your
-              order history.
+              cart. You can either checkout as a guest, or sign up, create an
+              account and checkout your cart. If you choose the latter, you'll
+              be able to log into your account later and see your order history.
               <br></br>
               <h4>Technologies Used:</h4>
               <div class="Short-bar"></div>
