@@ -31,7 +31,7 @@ function Projects() {
             Whatever your experience level or personal preference, FitMinded
             will help fitness enthusiasts connect with others.
             <br></br>
-            <h4>Technologies Used:</h4>
+            <h4>Technologies Used</h4>
             <div class="Short-bar"></div>
             <br></br>
             Javascript, React.js, Redux.js, Node.js, Express, MongoDB, Mongoose,
@@ -72,7 +72,7 @@ function Projects() {
             will read it out loud to you. You can also pause and re-play the
             audio. This app was created in 2 days during a solo hack-a-thon.
             <br></br>
-            <h4>Technologies Used:</h4>
+            <h4>Technologies Used</h4>
             <div class="Short-bar"></div>
             <br></br>
             JavaScript, React.js, SpeechSynthesis API, Tesseract API, Bulma
@@ -112,7 +112,7 @@ function Projects() {
             account and checkout your cart. If you choose the latter, you'll be
             able to log into your account later and see your order history.
             <br></br>
-            <h4>Technologies Used:</h4>
+            <h4>Technologies Used</h4>
             <div class="Short-bar"></div>
             <br></br>
             JavaScript, React.js, Redux.js, Node.js, Express, Sequelize,

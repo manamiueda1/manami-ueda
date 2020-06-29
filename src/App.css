@@ -7,8 +7,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #Intro {
@@ -23,6 +21,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
   height: 500px;
   padding-bottom: 50px;
 }
@@ -137,7 +136,7 @@
 #Resume,
 #Contact-me,
 #Footer {
-  padding-top: 150px;
+  padding-top: 120px;
   display: flex;
   flex-direction: column;
 }
@@ -223,7 +222,7 @@ p {
 
 h2 {
   margin-top: 100px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   align-self: center;
   font-family: ambroise-std;
   font-size: 40px;
@@ -231,17 +230,19 @@ h2 {
   color: #000;
 }
 .fit-images {
+  padding-top: 30px;
+  display: flex;
   align-self: center;
 }
 
 .Fit-img {
+  align-self: center;
   width: 300px;
 }
 
 .imageMac,
 .carImage {
   align-self: center;
-
   width: 800px;
   height: auto;
 }
@@ -256,24 +257,9 @@ h2 {
   flex-wrap: wrap;
 }
 
-/* .Fit-description,
-.Image-description,
-.Car-description {
-  display: flex;
-  flex-direction: column;
-  min-width: 300px;
-} */
-
 .buttons {
   text-align: center;
 }
-
-/* .Fit-description p,
-.Image-description p,
-.Car-description p {
-  max-width: 750px;
-  min-width: 300px;
-} */
 
 form {
   display: flex;
@@ -321,17 +307,56 @@ span {
 }
 
 @media only screen and (max-width: 600px) {
+  #Intro {
+    padding-top: 180px;
+  }
   .Three-headings {
     align-self: center;
-
-    font-size: 10px;
+    font-size: 12px;
   }
   .Name {
+    align-self: center;
+    text-align: center;
     margin-top: 0px;
-
     font-size: 80px;
   }
+  .Bar-intro,
+  .Social {
+    align-self: center;
+  }
+  .Bar-intro {
+    margin-left: 0px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  p,
+  .Technology {
+    font-size: 18px;
+  }
+  .Fit-img {
+    width: 180px;
+  }
+  .imageMac,
+  .carImage {
+    width: 350px;
+  }
+  .feedback-input {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  #Intro {
+    padding-top: 150px;
+  }
+  .Three-headings {
+    font-size: 10px;
+  }
   .Portfolio_img {
-    height: 300px;
+    height: 400px;
   }
 }

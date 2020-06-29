@@ -5,9 +5,9 @@
   width: 100%;
   background-color: white;
   padding-top: 20px;
-  flex-wrap: wrap;
   min-width: 100px;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -27,6 +27,11 @@ html {
   justify-content: flex-end;
   align-items: center;
   margin-right: 80px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
 }
 
 li {
@@ -60,4 +65,44 @@ a {
 
 .border:hover::after {
   width: 100%;
+}
+
+@media only screen and (max-width: 850px) {
+  .Mu {
+    width: 50px;
+    margin-left: 30px;
+  }
+  .menu {
+    margin-right: 40px;
+  }
+  li {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Nav {
+    padding-top: 15px;
+  }
+  li {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .Nav {
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+  .Mu {
+    width: 40px;
+    margin-left: 20px;
+  }
+  .menu {
+    margin-right: 20px;
+  }
+  li {
+    font-size: 8px;
+    margin-left: 15px;
+  }
 }
