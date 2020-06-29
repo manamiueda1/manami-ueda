@@ -324,7 +324,7 @@ span {
     align-self: center;
     text-align: center;
     margin-top: 0px;
-    font-size: 80px;
+    font-size: 70px;
   }
   .Bar-intro,
   .Social {
@@ -347,7 +347,7 @@ span {
   }
   .imageMac,
   .carImage {
-    width: 350px;
+    width: 310px;
   }
   .feedback-input {
     width: 300px;
@@ -356,7 +356,7 @@ span {
 
 @media only screen and (max-width: 580px) {
   #Intro {
-    padding-top: 150px;
+    padding-top: 120px;
   }
   .Three-headings {
     font-size: 10px;
