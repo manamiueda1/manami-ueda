@@ -9,7 +9,7 @@ function AboutMe() {
       <div class="Bar"></div>
 
       <br></br>
-      <p className="About-me-p">
+      <p>
         Hi! I'm Manami, a full-stack software engineer based in New York City. I
         began my career in the tech industry in Chicago as a Product Manager for
         a mobile application development company. Shortly after that, I moved to
@@ -28,19 +28,20 @@ function AboutMe() {
         <h3>Technologies I've Worked With</h3>
         <div class="Bar"></div>
         <br></br>
+        <div className="Technology">
+          <b>Language:</b> JavaScript (ES6+)
+          <br></br>
+          <strong>Frontend:</strong> React.js, Redux, HTML, CSS
+          <br></br>
+          <strong>Backend:</strong> Node.js, Express, Sequelize, PostgreSQL,
+          Mongoose, MongoDB, RESTful API
+          <br></br>
+          <strong>DevOps:</strong> Heroku, Firebase, TDD (Mocha, Chai, Jasmine)
+          <br></br>
+          <strong>Tools:</strong> npm, GitHub, GIT, Visual Studio Code, Postman,
+          Postico, Compass
+        </div>
       </p>
-      <div className="Technology">
-        Language: JavaScript (ES6+)
-        <br></br>
-        Frontend: React.js, Redux, HTML, CSS
-        <br></br>
-        Backend: Node.js, Express, Sequelize, PostgreSQL, Mongoose, MongoDB,
-        RESTful API
-        <br></br>
-        DevOps: Heroku, Firebase, TDD (Mocha, Chai, Jasmine)
-        <br></br>
-        Tools: npm, GitHub, GIT, Visual Studio Code, Postman, Postico, Compass
-      </div>
     </div>
   );
 }
