@@ -158,7 +158,8 @@ p {
   font-weight: 80;
   font-size: 22px;
   line-height: 1.5em;
-  max-width: 1000px;
+  width: 90vw;
+  max-width: 1050px;
   min-width: 300px;
 }
 
@@ -166,18 +167,6 @@ p {
   text-align: left;
   align-self: center;
 }
-
-/* .Technology {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  font-family: ambroise-std;
-  font-weight: 80;
-  font-size: 22px;
-  line-height: 1.5em;
-  max-width: 1000px;
-  min-width: 300px;
-} */
 
 .FitMinded,
 .Image-to-voice,
@@ -340,7 +329,7 @@ span {
     font-size: 30px;
   }
   p {
-    font-size: 18px;
+    font-size: 17px;
   }
   .Fit-img {
     width: 180px;
