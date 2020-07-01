@@ -5,8 +5,12 @@ import mu from "./images/mu.png";
 function Nav() {
   return (
     <div className="Nav">
-      <a href="#Content">
+      {/* <a href="#Intro">
         <img src={mu} className="Mu" alt="mu"></img>
+      </a> */}
+
+      <a class="Logo" href="#Intro">
+        M
       </a>
 
       <ul className="menu">
