@@ -20,9 +20,7 @@ function AboutMe() {
         led me to enroll in Fullstack Academy's Software Engineering Immersive
         Program. Now a recent graduate from Fullstack Academy, I am ready to
         start my next journey as a software engineer with an organization
-        centered around a passionate, collaborative culture. Please check out my
-        projects below and shoot me a message or email me at
-        manamiueda1@gmail.com - cheers!
+        centered around a passionate, collaborative culture.
         <br></br>
         <br></br>
         <h3>Technologies I've Worked With</h3>
