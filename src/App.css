@@ -25,7 +25,6 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   height: 500px;
   padding-bottom: 50px;
 }
@@ -145,7 +144,7 @@ html {
   flex-direction: column;
 }
 
-h1 {
+.professional-experience, .Resume, .Contact, .about-me {
   align-self: center;
   font-family: ambroise-std;
   font-size: 55px;
@@ -217,15 +216,28 @@ p {
   background-color: black;
   color: white;
 }
-
 h2 {
-  margin-top: 100px;
-  margin-bottom: 30px;
   align-self: center;
   font-family: ambroise-std;
   font-size: 40px;
-  line-height: 0.9em;
   color: #000;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+
+h3 {
+  align-self: center;
+  font-family: ambroise-std;
+  font-size: 30px;
+  color: #000;
+
+}
+
+h4 {
+  font-family: ambroise-std;
+  align-self: center;
+  padding: 0%;
+  margin: 0%;
 }
 .fit-images {
   padding-top: 30px;
@@ -234,9 +246,9 @@ h2 {
   align-self: center;
 }
 
-.Fit-img {
+.openFinImage {
   align-self: center;
-  width: 300px;
+  width: 600px;
 }
 
 .imageMac,
@@ -329,9 +341,7 @@ span {
   h1 {
     font-size: 40px;
   }
-  h2 {
-    font-size: 30px;
-  }
+ 
   p {
     font-size: 17px;
   }

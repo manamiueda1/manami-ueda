@@ -49,7 +49,7 @@ class ContactMe extends React.Component {
   render() {
     return (
       <div id="Contact-me">
-        <h1>Contact</h1>
+        <h1 className="Contact">Contact</h1>
         <div class="Bar"></div>
 
         <form onSubmit={this.handleSubmit}>
