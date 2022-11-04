@@ -13,7 +13,7 @@ function Projects() {
       <div className="FitMinded">
         <h2>OpenFin</h2>
         <h3>Software Engineer</h3>
-        <h4 className='date'>November 2022 - Present</h4>
+        <h4 className='date'>November 2021 - Present</h4>
 
         <div className="fit">
           <div class="fit-images">
@@ -43,7 +43,7 @@ function Projects() {
       <div className="Image-to-voice">
         <h2>Coding Career Fastlane</h2>
         <h3>Software Engineer</h3>
-        <h4 className='date'>June 2022 - December 2022</h4>
+        <h4 className='date'>June 2021 - December 2021</h4>
 
         <div className="imageTo">
           <img src={CCFL} className="imageMac" alt="imageMac"></img>
@@ -71,7 +71,7 @@ function Projects() {
       <div className="Car-ify">
         <h2>Nebula Academy</h2>
         <h3>Software Engineer and Instructor</h3>
-        <h4 className='date'>September 2021 - May 2022</h4>
+        <h4 className='date'>September 2020 - May 2021</h4>
 
         <div className="Carify">
           <img src={nebulaAcademy} className="carImage" alt="carImage"></img>

@@ -21,7 +21,7 @@ function Nav() {
         </li>
         <li>
           <a class="border" href="#Projects">
-            Projects
+            Experiences
           </a>
         </li>
 
